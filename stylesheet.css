@@ -1,0 +1,31 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2022/09/08/11/26/lens-7440742_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  /* background-size: cover; */
+}
+
+.name {
+  position: fixed;
+  left: 14%;
+  top: 46%;
+}
+
+.job {
+  position: fixed;
+  top: 46%;
+  right: 15%;
+}
+
+footer {
+  position: fixed;
+  top: 80%;
+  left: 30%;
+}
+
+.logo {
+  width: 120px;
+}
