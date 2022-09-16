@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://cdn.pixabay.com/photo/2022/09/08/11/26/lens-7440742_1280.jpg);
+  background-image: url('images/Sans.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,24 +8,39 @@ body {
   /* background-size: cover; */
 }
 
+nav {
+  font-size: larger;
+}
+
 .name {
   position: fixed;
   left: 14%;
-  top: 46%;
+  top: 48%;
 }
 
 .job {
   position: fixed;
-  top: 46%;
-  right: 15%;
+  top: 48%;
+  right: 15.5%;
 }
 
-footer {
-  position: fixed;
-  top: 80%;
-  left: 30%;
+.dash {
+  color: transparent;
 }
 
-.logo {
-  width: 120px;
+.tag {
+  display: none;
+}
+
+@media screen and (max-width : 992px) {
+  .name {
+    display: none;
+  }
+  .job {
+    display: none;
+  }
+  .tag {
+    display: inline;
+    font-size: larger;
+  }
 }
