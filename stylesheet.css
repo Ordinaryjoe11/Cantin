@@ -44,3 +44,37 @@ nav {
     font-size: larger;
   }
 }
+
+.mariage {
+  width: 150px;
+}
+
+.grossesse {
+  width: 150px;
+}
+
+.baby {
+  width: 150px;
+}
+
+.famille {
+  width: 150px;
+}
+
+.bapteme {
+  width: 150px;
+}
+
+.couple {
+  width: 150px;
+}
+
+.gallery2 {
+  position: absolute;
+  right: 5%;
+}
+
+.gallery {
+  position: absolute;
+  left: 5%;
+}
